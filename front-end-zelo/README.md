@@ -205,7 +205,4 @@ apenas o endereço do front. Os erros chegam ao cidadão como mensagens simples,
 técnicos. A área de gestão exige um código de acesso, a API não sobe em produção com um código
 fraco, e há um limite de análises por minuto para evitar abuso.
 
----
 
-Os relatos marcados como simulados no painel são fictícios e servem só para demonstração. Eles
-podem ser ocultados pelo filtro.
