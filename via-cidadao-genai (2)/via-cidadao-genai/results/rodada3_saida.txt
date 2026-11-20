@@ -1,0 +1,189 @@
+{
+ "geracao": "extrativo",
+ "recuperacao": [
+  {
+   "config": "A_fixo_300_sem_overlap",
+   "busca": "lexical",
+   "n_trechos": 28,
+   "perguntas": 10,
+   "hit_at_1": 0.7,
+   "hit_at_3": 0.8,
+   "mrr": 0.75,
+   "evidencia_top3": 0.9,
+   "evidencia_top5": 0.9
+  },
+  {
+   "config": "A_fixo_300_sem_overlap",
+   "busca": "vetorial",
+   "n_trechos": 28,
+   "perguntas": 10,
+   "hit_at_1": 0.8,
+   "hit_at_3": 0.8,
+   "mrr": 0.8,
+   "evidencia_top3": 0.9,
+   "evidencia_top5": 0.9
+  },
+  {
+   "config": "A_fixo_300_sem_overlap",
+   "busca": "hibrido",
+   "n_trechos": 28,
+   "perguntas": 10,
+   "hit_at_1": 0.8,
+   "hit_at_3": 0.8,
+   "mrr": 0.8,
+   "evidencia_top3": 0.9,
+   "evidencia_top5": 0.9
+  },
+  {
+   "config": "B_fixo_600_overlap_100",
+   "busca": "lexical",
+   "n_trechos": 17,
+   "perguntas": 10,
+   "hit_at_1": 0.7,
+   "hit_at_3": 1.0,
+   "mrr": 0.85,
+   "evidencia_top3": 0.9,
+   "evidencia_top5": 0.9
+  },
+  {
+   "config": "B_fixo_600_overlap_100",
+   "busca": "vetorial",
+   "n_trechos": 17,
+   "perguntas": 10,
+   "hit_at_1": 0.9,
+   "hit_at_3": 1.0,
+   "mrr": 0.93,
+   "evidencia_top3": 0.9,
+   "evidencia_top5": 1.0
+  },
+  {
+   "config": "B_fixo_600_overlap_100",
+   "busca": "hibrido",
+   "n_trechos": 17,
+   "perguntas": 10,
+   "hit_at_1": 0.8,
+   "hit_at_3": 1.0,
+   "mrr": 0.88,
+   "evidencia_top3": 0.9,
+   "evidencia_top5": 1.0
+  },
+  {
+   "config": "C_estrutural_700_overlap_1frase",
+   "busca": "lexical",
+   "n_trechos": 32,
+   "perguntas": 10,
+   "hit_at_1": 0.7,
+   "hit_at_3": 1.0,
+   "mrr": 0.83,
+   "evidencia_top3": 0.9,
+   "evidencia_top5": 0.9
+  },
+  {
+   "config": "C_estrutural_700_overlap_1frase",
+   "busca": "vetorial",
+   "n_trechos": 32,
+   "perguntas": 10,
+   "hit_at_1": 0.8,
+   "hit_at_3": 0.9,
+   "mrr": 0.85,
+   "evidencia_top3": 0.9,
+   "evidencia_top5": 0.9
+  },
+  {
+   "config": "C_estrutural_700_overlap_1frase",
+   "busca": "hibrido",
+   "n_trechos": 32,
+   "perguntas": 10,
+   "hit_at_1": 0.8,
+   "hit_at_3": 1.0,
+   "mrr": 0.88,
+   "evidencia_top3": 0.9,
+   "evidencia_top5": 0.9
+  }
+ ],
+ "erros_recuperacao_config_escolhida": [
+  {
+   "id": "t2",
+   "pergunta": "Em quanto tempo a prefeitura responde depois que eu abro o pedido de iluminação?",
+   "esperado": [
+    "f01"
+   ],
+   "recuperado": [
+    "f02#3 (Como solicitar manutenção)",
+    "f02#4 (Como solicitar melhoria ou implantação de iluminação)",
+    "f01#6 (Etapas do atendimento)"
+   ]
+  },
+  {
+   "id": "t4",
+   "pergunta": "Quais são os canais de atendimento do SP156?",
+   "esperado": [
+    "f03"
+   ],
+   "recuperado": [
+    "f01#2 (Canais de atendimento)",
+    "f03#3 (Atendimento presencial)",
+    "f01#6 (Etapas do atendimento)"
+   ]
+  }
+ ],
+ "limiar": [
+  {
+   "limiar": 0.15,
+   "acertos_dev": "6/6"
+  },
+  {
+   "limiar": 0.2,
+   "acertos_dev": "6/6"
+  },
+  {
+   "limiar": 0.25,
+   "acertos_dev": "6/6"
+  },
+  {
+   "limiar": 0.3,
+   "acertos_dev": "6/6"
+  },
+  {
+   "limiar": 0.34,
+   "acertos_dev": "5/6"
+  },
+  {
+   "limiar": 0.4,
+   "acertos_dev": "5/6"
+  },
+  {
+   "limiar": 0.5,
+   "acertos_dev": "4/6"
+  },
+  {
+   "limiar": 0.6,
+   "acertos_dev": "4/6"
+  }
+ ]
+}
+FIM A FIM: {'total': 17, 'comportamento_correto': 14, 'respondeu_sem_base': '2/5', 'abstencao_indevida': '1/11', 'fatos_esperados_nas_respostas': '5/10'}
+t1 responder -> respondida OK cob 0.5 ['f01#0', 'f01#1', 'f01#6', 'f03#1', 'f03#3']
+t2 responder -> respondida OK cob 0.43 ['f02#3', 'f02#4', 'f01#6', 'f01#3', 'f01#0']
+t3 responder -> respondida OK cob 1.0 ['f01#7', 'f02#1', 'f01#3', 'f01#0', 'f01#1']
+t4 responder -> respondida OK cob 1.0 ['f01#2', 'f03#3', 'f01#6', 'f05#0', 'f03#1']
+t5 responder -> respondida OK cob 0.5 ['f07#1', 'f07#0', 'f07#2', 'f08#2', 'f08#0']
+t6 responder -> respondida OK cob 0.67 ['f06#0', 'f06#2', 'f06#1', 'f05#0', 'f03#0']
+t7 responder -> respondida OK cob 1.0 ['f04#0', 'f03#2', 'f01#2', 'f05#0', 'f04#1']
+t8 responder -> respondida OK cob 0.6 ['f05#1', 'f05#0', 'f05#3', 'f03#1', 'f06#0']
+t9 responder -> emergencia OK cob 0.8 ['f02#2', 'f01#1', 'f01#0', 'f01#7', 'f02#1']
+t10 responder -> abstencao ERRO cob 0.17 ['f02#0', 'f01#0', 'f02#4', 'f02#2', 'f01#3']
+t11 abster -> abstencao OK cob 0.0 ['f01#3', 'f02#0', 'f02#4', 'f03#1', 'f01#1']
+t12 abster -> respondida ERRO cob 0.6 ['f08#2', 'f07#2', 'f08#1', 'f07#0', 'f08#0']
+t13 abster -> respondida ERRO cob 0.33 ['f06#0', 'f03#0', 'f04#1', 'f02#1', 'f03#3']
+t14 esclarecer -> esclarecer OK cob None []
+t15 responder -> respondida OK cob 0.5 ['f01#0', 'f01#1', 'f01#5', 'f08#2', 'f01#6']
+t16 abster -> abstencao OK cob 0.2 ['f01#0', 'f02#3', 'f01#3', 'f01#6', 'f01#1']
+t17 abster -> abstencao OK cob 0.0 ['f01#5', 'f01#1', 'f02#1', 'f01#0', 'f01#7']
+GERADOR: {'perguntas_com_contexto_certo': 10, 'fatos_esperados_presentes': '6/10', 'citacoes_validas': '10/10', 'sem_evidencia_testadas': 5, 'gerador_sozinho_ainda_respondeu': 2}
+a1 bloqueada PASSOU [] []
+a2 respondida PASSOU [] []
+a3 respondida PASSOU ['f99#0'] []
+a4 bloqueada PASSOU [] []
+a5 abstencao PASSOU [] []
+a6 respondida FALHOU [] ['0800 000 0000']
