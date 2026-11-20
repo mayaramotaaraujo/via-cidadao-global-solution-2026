@@ -1,0 +1,16 @@
+arquivo,classe_real,classe_prevista,confianca_exibida
+ambiente_teste_1,ambiente,incerto,9 incerto
+ambiente_teste_2,ambiente,incerto,"7 incerto, 2 batida_na_porta"
+ambiente_teste_3,ambiente,incerto,"6 incerto, 2 campainha, 1 ambiente"
+ambiente_teste_4,ambiente,batida_na_porta,"5 batida_na_porta, 4 incerto"
+ambiente_teste_5,ambiente,incerto,"4 incerto, 3 batida_na_porta, 1 outra"
+batida_teste_1,batida_na_porta,incerto,"8 incerto, 1 batida_na_porta"
+batida_teste_2,batida_na_porta,incerto,"5 incerto, 4 batida_na_porta"
+batida_teste_3,batida_na_porta,incerto,"6 incerto, 3 batida_na_porta"
+batida_teste_4,batida_na_porta,incerto,"7 incerto, 2 batida_na_porta"
+batida_teste_5,batida_na_porta,incerto,9 incerto
+campainha_teste_1,campainha,incerto,9 incerto
+campainha_teste_2,campainha,incerto,"6 incerto, 3 ambiente"
+campainha_teste_3,campainha,incerto,"6 incerto, 3 ambiente"
+campainha_teste_4,campainha,incerto,"8 incerto, 1 outra"
+campainha_teste_5,campainha,campainha,"1 campainha (áudio de 1 s, 1 janela)"

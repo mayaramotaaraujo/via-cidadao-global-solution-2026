@@ -1,0 +1,16 @@
+tentativa,som_produzido,classe_real,classe_prevista,confianca_exibida,observacao
+1,som de vídeo do YouTube,campainha,campainha,1.00,
+2,som de vídeo do YouTube,campainha,campainha,1.00,
+3,som de vídeo do YouTube,campainha,campainha,1.00,
+4,som de vídeo do YouTube,campainha,campainha,0.92,
+5,som de vídeo do YouTube,campainha,campainha,0.96,
+6,som de vídeo do YouTube,batida_na_porta,batida_na_porta,0.98,
+7,som de vídeo do YouTube,batida_na_porta,batida_na_porta,0.85,
+8,som de vídeo do YouTube,batida_na_porta,incerto,No event detected,"Maior janela de batida 0.44, abaixo do limiar de 0.60"
+9,som de vídeo do YouTube,batida_na_porta,ambiente,0.63,"Janelas anteriores mostravam batida 0.85 e 0.88, mas a classe final foi ambiente"
+10,som de vídeo do YouTube,batida_na_porta,incerto,No event detected,"Janelas anteriores mostravam batida 0.80 e 0.92, mas a classe final foi No event detected"
+11,som de vídeo do YouTube,ambiente,ambiente,1.00,
+12,som de vídeo do YouTube,ambiente,ambiente,0.79,Janelas anteriores com campainha 0.67 e 0.94
+13,som de vídeo do YouTube,ambiente,ambiente,0.98,
+14,som de vídeo do YouTube,ambiente,ambiente,0.88,
+15,som de vídeo do YouTube,ambiente,ambiente,0.93,Janelas anteriores com batida 0.78 a 0.96

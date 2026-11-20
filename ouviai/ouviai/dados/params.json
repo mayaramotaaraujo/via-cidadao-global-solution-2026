@@ -1,0 +1,123 @@
+{
+  "classes": [
+    "campainha",
+    "batida_na_porta",
+    "ambiente"
+  ],
+  "taxa_amostragem_hz": 16000,
+  "duracao_amostra_s": 5,
+  "canais": "mono",
+  "gravacoes": {
+    "campainha": {
+      "treino": 15,
+      "teste": 5
+    },
+    "batida_na_porta": {
+      "treino": 15,
+      "teste": 5
+    },
+    "ambiente": {
+      "treino": 15,
+      "teste": 5
+    }
+  },
+  "origem_audios": "Os sons de treino, de teste e da demonstração ao vivo foram gravados com o microfone do celular, a partir de vídeos do YouTube.",
+  "celular_e_navegador": "celular Samsung, com o navegador do próprio celular, que nas capturas aparece como o Samsung Internet",
+  "impulse": {
+    "window_size_ms": 1000,
+    "window_increase_ms": 500,
+    "bloco_processamento": "Audio (MFE)",
+    "bloco_aprendizado": "Classificação neural (CNN)"
+  },
+  "mfe": {
+    "frame_length_s": 0.02,
+    "frame_stride_s": 0.01,
+    "filter_number": 40,
+    "fft_length": 256,
+    "low_frequency_hz": 0,
+    "high_frequency_hz": "não definido na tela",
+    "noise_floor_db": -52
+  },
+  "rede_neural": {
+    "arquitetura": "entrada de 3.960 características, redimensionar (40 colunas), convolução e pooling 1D (8 filtros, kernel 3), abandono 0,25, convolução e pooling 1D (16 filtros, kernel 3), abandono 0,25, achatar, saída com 3 classes",
+    "epocas": 100,
+    "taxa_de_aprendizado": 0.005,
+    "validacao_percentual": 20
+  },
+  "validacao_treino": {
+    "acuracia_percentual": 54.3,
+    "perda": 0.88
+  },
+  "integrantes": [
+    {
+      "nome": "Mayara Mota",
+      "rm": "563887"
+    },
+    {
+      "nome": "Gabriel Palmeira",
+      "rm": "563522"
+    }
+  ],
+  "capturas_ao_vivo": [
+    {
+      "tentativa": 1,
+      "arquivo": "06_run_model_celular"
+    },
+    {
+      "tentativa": 2,
+      "arquivo": "10_ao_vivo_2132_campainha_a"
+    },
+    {
+      "tentativa": 3,
+      "arquivo": "11_ao_vivo_2132_campainha_b"
+    },
+    {
+      "tentativa": 4,
+      "arquivo": "12_ao_vivo_2132_campainha_c"
+    },
+    {
+      "tentativa": 5,
+      "arquivo": "13_ao_vivo_2133_campainha_d"
+    },
+    {
+      "tentativa": 6,
+      "arquivo": "07_ao_vivo_1"
+    },
+    {
+      "tentativa": 7,
+      "arquivo": "09_ao_vivo_2131_batida"
+    },
+    {
+      "tentativa": 8,
+      "arquivo": "18_ao_vivo_2144_batida_a"
+    },
+    {
+      "tentativa": 9,
+      "arquivo": "19_ao_vivo_2144_batida_b"
+    },
+    {
+      "tentativa": 10,
+      "arquivo": "20_ao_vivo_2144_batida_c"
+    },
+    {
+      "tentativa": 11,
+      "arquivo": "08_ao_vivo_2"
+    },
+    {
+      "tentativa": 12,
+      "arquivo": "14_ao_vivo_2136_ambiente_a"
+    },
+    {
+      "tentativa": 13,
+      "arquivo": "15_ao_vivo_2138_ambiente_b"
+    },
+    {
+      "tentativa": 14,
+      "arquivo": "16_ao_vivo_2139_ambiente_c"
+    },
+    {
+      "tentativa": 15,
+      "arquivo": "17_ao_vivo_2139_ambiente_d"
+    }
+  ]
+}

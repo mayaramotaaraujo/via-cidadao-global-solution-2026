@@ -1,0 +1,10 @@
+Coloque aqui as capturas de tela com estes nomes (png ou jpg):
+
+01_data_acquisition   tela Data acquisition com as gravações e os rótulos
+02_impulse_design     tela Impulse design com Audio (MFE) e o bloco de classificação
+03_generate_features  tela Generate features com o feature explorer
+04_classifier         tela Classifier com a acurácia e a matriz de confusão da validação
+05_model_testing      tela Model testing com o resultado do Classify all
+06_run_model_celular  tela do celular com o modelo rodando e classificando ao vivo
+07_ao_vivo_1          (opcional) outras capturas da validação ao vivo
+08_ao_vivo_2          (opcional)
