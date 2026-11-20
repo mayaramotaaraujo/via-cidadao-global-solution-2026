@@ -1,0 +1,2 @@
+n_perguntas,k,acerto_top1,recall_at_4,mrr
+25,4,0.92,1.0,0.96

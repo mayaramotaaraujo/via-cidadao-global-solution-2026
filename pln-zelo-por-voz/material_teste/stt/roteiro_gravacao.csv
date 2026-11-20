@@ -1,0 +1,21 @@
+arquivo,falante,genero,faixa_etaria,ruido,tipo_ruido,referencia
+stt_01.wav,F1,masculino,18-29,nao,,Como eu peço para tapar um buraco na minha rua?
+stt_02.wav,F1,masculino,18-29,nao,,"O poste da minha rua está apagado à noite, o que eu faço?"
+stt_03.wav,F1,masculino,18-29,nao,,Quanto entulho eu posso levar no Ecoponto?
+stt_04.wav,F1,masculino,18-29,nao,,Posso agendar o Cata-Bagulho para buscar um sofá velho?
+stt_05.wav,F1,masculino,18-29,nao,,"Tem um carro largado na minha rua faz semanas, como eu denuncio?"
+stt_06.wav,F1,masculino,18-29,sim,TV ligada,"O bueiro da minha rua está entupido, quem limpa?"
+stt_07.wav,F1,masculino,18-29,sim,trânsito/rua,Como eu recebo alerta de chuva da Defesa Civil no celular?
+stt_08.wav,F2,feminino,18-29,nao,,Quem pode pedir poda de árvore na calçada?
+stt_09.wav,F2,feminino,18-29,nao,,"A árvore está encostada no fio e soltando faísca, o que eu faço?"
+stt_10.wav,F2,feminino,18-29,nao,,Quem conserta um buraco que a Sabesp abriu?
+stt_11.wav,F2,feminino,18-29,nao,,"Minha casa está sem luz, a Prefeitura resolve?"
+stt_12.wav,F2,feminino,18-29,nao,,Como eu falo com o 156 pelo WhatsApp?
+stt_13.wav,F2,feminino,18-29,sim,música,E onde eu encontro o Ecoponto mais perto de casa?
+stt_14.wav,F2,feminino,18-29,sim,conversa ao fundo,Posso jogar o entulho da reforma no lixo comum?
+stt_15.wav,F3,nao_informado,60+,nao,,"Na minha rua nunca teve poste, como eu peço um novo?"
+stt_16.wav,F3,nao_informado,60+,nao,,"A rua está alagada, posso atravessar de carro?"
+stt_17.wav,F3,nao_informado,60+,nao,,E como eu sei o dia que o Cata-Bagulho passa na minha rua?
+stt_18.wav,F3,nao_informado,60+,nao,,"Apareceu rachadura na parede e a terra está cedendo, o que eu faço?"
+stt_19.wav,F3,nao_informado,60+,nao,,"Estou fora da cidade de São Paulo, como eu ligo para o 156?"
+stt_20.wav,F3,nao_informado,60+,sim,ventilador/eletrodoméstico,Dá pra cadastrar a casa da minha mãe também no alerta da Defesa Civil?

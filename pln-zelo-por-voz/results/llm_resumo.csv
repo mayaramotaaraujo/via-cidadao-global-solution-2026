@@ -1,0 +1,2 @@
+modelo,n_perguntas,acerto_no_tema_pct,acerto_continuacao_pct,admite_nao_saber_pct,recusas_adequadas_pct,acerto_geral_pct,latencia_llm_media_s,revisados_por_humano
+openai:gpt-4o-mini,30,100.0,100.0,100.0,100.0,100.0,1.073,0

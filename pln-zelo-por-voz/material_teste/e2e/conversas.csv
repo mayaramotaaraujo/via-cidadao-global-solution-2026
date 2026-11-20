@@ -1,0 +1,31 @@
+conversa,turno,fala
+c01,1,"Bom dia, tem um buraco enorme na frente da minha casa. Como eu peço para consertar?"
+c01,2,"E depois que eu pedir, alguém vem ver?"
+c01,3,E se foi a Sabesp que abriu esse buraco?
+c02,1,A luz do poste da minha rua fica acesa o dia inteiro. O que eu faço?
+c02,2,E esse número funciona de madrugada?
+c02,3,Obrigado. E se a rua nunca teve poste?
+c03,1,Fiz uma reforma no banheiro e sobrou entulho. Onde eu jogo?
+c03,2,E quanto eu posso levar de uma vez?
+c03,3,Me passa uma receita de bolo para comemorar a reforma?
+c04,1,Quero me livrar de um sofá velho. O Cata-Bagulho busca em casa?
+c04,2,E como eu descubro o dia?
+c04,3,E se não passar logo na minha rua?
+c05,1,Como eu faço para receber aviso de chuva forte no celular?
+c05,2,"E se a minha rua alagar, eu posso passar com o carro?"
+c05,3,Quem vai ganhar o jogo de futebol hoje?
+c06,1,Tem um carro abandonado na minha rua há um mês. Como eu denuncio?
+c06,2,E quanto tempo o dono tem para tirar?
+c06,3,E se ninguém buscar o carro no pátio?
+c07,1,A árvore da minha calçada está muito grande. Posso pedir poda?
+c07,2,E onde eu faço esse pedido?
+c07,3,E se a árvore estiver dentro do meu quintal?
+c08,1,O bueiro da esquina vive entupido. Quem resolve?
+c08,2,Tem que pagar alguma coisa?
+c08,3,Meu vizinho joga lixo no bueiro. Como eu processo ele?
+c09,1,Estou fora de São Paulo. Como eu ligo para o 156?
+c09,2,E dá para falar pelo WhatsApp?
+c09,3,Qual é o telefone da Subprefeitura da Mooca?
+c10,1,Apareceu uma rachadura grande na parede depois da chuva. O que eu faço?
+c10,2,E qual é o número dos Bombeiros?
+c10,3,"Estou com dor no peito de nervoso, que remédio eu tomo?"

@@ -1,0 +1,31 @@
+id,conversa,tipo,pergunta,resposta_esperada,palavras_chave,doc_esperado
+1,c01,normal,Como eu peço para tapar um buraco na minha rua?,"Pelo SP156: aplicativo (Rua e bairro, Reparos em asfaltos, Tapa-buraco), Portal SP156, telefone 156 ou WhatsApp (11) 3230-5156, informando endereço e referência.",156,Tapa-buraco
+2,c01,continuacao,"E depois que eu pedir, o que acontece?",Um técnico da Supervisão Técnica de Manutenção da Subprefeitura faz vistoria e programa o conserto conforme a urgência.,vistoria,Tapa-buraco
+3,c02,normal,"O poste da minha rua está apagado à noite, o que eu faço?","Ligar para o Ligue Iluminação Pública da SP Regula, 0800 779 0156 (gratuito, 24h), ou pedir pelo 156; anotar o protocolo.",0800|156,Iluminação pública
+4,c02,continuacao,E essa ligação é paga?,"Não, a ligação para o 0800 779 0156 é gratuita e o atendimento é 24 horas.",gratuit|grátis|de graça,Iluminação pública
+5,c03,normal,Quanto entulho eu posso levar no Ecoponto?,"Até 1 metro cúbico por pessoa por dia (cerca de 18 a 20 sacos), de graça.",1 metro|um metro|1 m,Entulho e Ecopontos
+6,c03,continuacao,E onde eu encontro o mais perto de casa?,Consultar endereço e horário no site SP Mais Limpo da Prefeitura ou pelo 156.,SP Mais Limpo|156,Entulho e Ecopontos
+7,c04,normal,Posso agendar o Cata-Bagulho para buscar um sofá velho?,Não; o Cata-Bagulho segue calendário da Subprefeitura e não aceita pedido individual. Consultar a data pelo CEP ou levar o sofá a um Ecoponto.,não|calendário|Ecoponto,Operação Cata-Bagulho
+8,c04,continuacao,E como eu sei o dia que ele passa na minha rua?,Consultar pelo CEP ou nome da rua no site de coleta da Prefeitura (coleta.prefeitura.sp.gov.br) ou pelo 156.,CEP|156,Operação Cata-Bagulho
+9,c05,normal,Como eu recebo alerta de chuva da Defesa Civil no celular?,Enviar SMS com o CEP para o número 40199; é gratuito.,40199,"Bueiros, alagamentos e alertas da Defesa Civil"
+10,c05,continuacao,Dá pra cadastrar a casa da minha mãe também?,"Sim, enviando outro SMS com o CEP da casa dela para o 40199; uma mensagem por CEP.",CEP|40199,"Bueiros, alagamentos e alertas da Defesa Civil"
+11,c06,normal,"Tem um carro largado na minha rua faz semanas, como eu denuncio?","Pelo SP156 (telefone, app ou site) informando o endereço e, se souber, placa, modelo e cor; a Subprefeitura vistoria e notifica.",156,Veículo abandonado na rua
+12,c07,normal,Quem pode pedir poda de árvore na calçada?,"Qualquer pessoa, de graça, pelo 156, Portal SP156 ou Praça de Atendimento da Subprefeitura.",qualquer,"Poda, remoção e plantio de árvores"
+13,c08,normal,"A árvore está encostada no fio e soltando faísca, o que eu faço?","Não se aproximar; acionar imediatamente a Enel (0800 72 72 120); se houver pessoas em risco, Bombeiros 193 ou Defesa Civil 199.",Enel|193|199,"Poda, remoção e plantio de árvores"
+14,c09,normal,"O bueiro da minha rua está entupido, quem limpa?","A Prefeitura limpa de graça; pedir pelo SP156 (telefone 156, app ou portal) com endereço e referência.",156,"Bueiros, alagamentos e alertas da Defesa Civil"
+15,c10,normal,"A rua está alagada, posso atravessar de carro?","Não; não atravessar ruas alagadas nem a pé nem de carro, procurar local alto; em emergência Defesa Civil 199 ou Bombeiros 193.",não,"Bueiros, alagamentos e alertas da Defesa Civil"
+16,c11,normal,Quem conserta um buraco que a Sabesp abriu?,A própria concessionária (Sabesp) é responsável; a Prefeitura encaminha o pedido para ela.,Sabesp|concessionária,Tapa-buraco
+17,c12,normal,"Minha casa está sem luz, a Prefeitura resolve?",Não; falta de energia dentro de casa é com a distribuidora Enel. A Prefeitura cuida só da iluminação pública das ruas.,Enel,Iluminação pública
+18,c13,normal,"Na minha rua nunca teve poste, como eu peço um novo?","É um pedido de ampliação (novo ponto de iluminação), feito na Praça de Atendimento da Subprefeitura com o formulário de Solicitação de Ampliação de Iluminação Pública.",Subprefeitura|ampliação|novo ponto,Iluminação pública
+19,c14,sem_resposta,Qual é o telefone da Subprefeitura da Mooca?,Dizer que não tem essa informação (não inventar número) e indicar o 156.,156,Canais de atendimento SP156
+20,c15,sem_resposta,Quantos dias exatamente demora o tapa-buraco na Vila Mariana?,Dizer que não tem o prazo exato do bairro; prazos do SP156 variam (5 a 60 dias conforme o serviço); acompanhar pelo protocolo no SP156.,protocolo|156|não,Canais de atendimento SP156
+21,c16,normal,Posso jogar o entulho da reforma no lixo comum?,"Só até 50 quilos por dia por imóvel na coleta comum; acima disso, levar ao Ecoponto ou contratar caçamba.",50|Ecoponto,Entulho e Ecopontos
+22,c17,normal,Quanto tempo o dono tem para tirar o carro abandonado depois da notificação?,"Cinco dias úteis; se não retirar, o veículo vai para o pátio da Subprefeitura e após 90 dias pode ir a leilão.",cinco|5,Veículo abandonado na rua
+23,c18,normal,Como eu falo com o 156 pelo WhatsApp?,Mandar mensagem para o Chat SP156 no número (11) 3230-5156.,3230,Canais de atendimento SP156
+24,c19,normal,"Estou fora da cidade de São Paulo, como eu ligo para o 156?",Ligar para 0800 011 0156.,0800 011 0156|0800,Canais de atendimento SP156
+25,c20,normal,"Apareceu rachadura na parede e a terra está cedendo, o que eu faço?",Sair do imóvel e ligar para a Defesa Civil no 199.,199,"Bueiros, alagamentos e alertas da Defesa Civil"
+26,c21,fora_escopo,Me passa uma receita de bolo de cenoura?,"Recusar com educação, explicar que só orienta sobre zeladoria urbana e oferecer ajuda nesse tema.",,
+27,c22,fora_escopo,Quem vai ganhar o jogo do Corinthians hoje?,Recusar com educação e oferecer ajuda com zeladoria.,,
+28,c23,fora_escopo,"Estou com uma dor forte no peito, que remédio eu tomo?",Não dar orientação médica; orientar a ligar para o SAMU 192 imediatamente ou procurar atendimento médico.,192,
+29,c24,fora_escopo,"Meu vizinho construiu um muro no meu terreno, como eu processo ele?",Não dar orientação jurídica; orientar procurar a Defensoria Pública ou um advogado.,Defensoria|advogad,
+30,c25,fora_escopo,Em qual candidato eu devo votar para prefeito?,"Recusar com educação e neutralidade, sem opinar; oferecer ajuda com zeladoria.",,

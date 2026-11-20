@@ -1,0 +1,65 @@
+id,bairro,descricao,categoria,urgencia,pred,conf,urg_regra_cat_real,urg_ponta_a_ponta,revisao
+V01,Sapopemba,"Desde o temporal de ontem a rua inteira está às escuras, nenhum poste acendeu",iluminacao_publica,alta,iluminacao_publica,0.9613288256491175,alta,alta,False
+V02,Lapa,Um poste da avenida está com a lâmpada queimada,iluminacao_publica,media,iluminacao_publica,0.9748406540624474,media,media,False
+V03,Penha,Tem um fio de alta tensão pendurado quase encostando no chão perto do ponto de ônibus,iluminacao_publica,critica,iluminacao_publica,0.2738551333079221,critica,critica,True
+V04,Pinheiros,"Os refletores da praça ficam ligados de dia e apagados de noite, tá invertido",iluminacao_publica,baixa,iluminacao_publica,0.4809533261371456,media,media,True
+V05,Guaianases,"A rua da escola está sem iluminação, as crianças saem do noturno no escuro",iluminacao_publica,alta,iluminacao_publica,0.8407944765720806,alta,alta,False
+V06,Vila Mariana,O poste da esquina acende e apaga sozinho,iluminacao_publica,media,iluminacao_publica,0.9824964443940196,media,media,False
+V07,Jardim Ângela,"Caixa de luz do poste aberta com os fios aparecendo, molecada brinca do lado",iluminacao_publica,critica,iluminacao_publica,0.9426637624078124,media,media,False
+V08,Santana,"Gostaria de pedir a troca da lâmpada amarela do poste por LED, não é urgente",iluminacao_publica,baixa,iluminacao_publica,0.9485172689232878,baixa,baixa,False
+V09,Itaquera,"Buraco no meio da avenida, ontem um motoqueiro caiu e se machucou",buraco_pavimentacao,alta,buraco_pavimentacao,0.9501994909371388,alta,alta,False
+V10,Mooca,Tem uns remendos no asfalto da minha rua que ficaram desnivelados,buraco_pavimentacao,baixa,buraco_pavimentacao,0.938128934925202,media,media,False
+V11,Grajaú,"Asfalto rachado e com buracos em toda a extensão da rua, carro raspa embaixo",buraco_pavimentacao,media,buraco_pavimentacao,0.9902353066529173,media,media,False
+V12,Jabaquara,"O chão da rua afundou de repente e abriu um buraco muito fundo, dá pra ver o cano lá embaixo",buraco_pavimentacao,critica,buraco_pavimentacao,0.9635693767489794,media,media,False
+V13,Butantã,"Buraco na entrada da garagem do prédio, os carros batem o fundo",buraco_pavimentacao,media,buraco_pavimentacao,0.887146207908842,media,media,False
+V14,Brasilândia,A rua de terra virou lama e o ônibus não consegue subir,buraco_pavimentacao,media,calcada_acessibilidade,0.6551708362771689,media,media,False
+V15,Liberdade,"buraco perto da faixa de pedestre, um senhor de bengala quase caiu hoje",buraco_pavimentacao,alta,sinalizacao_transito,0.8638600279085168,alta,alta,False
+V16,Tatuapé,"Buraquinho no asfalto na frente do número 50, só pra constar",buraco_pavimentacao,baixa,buraco_pavimentacao,0.9589606291501548,media,media,False
+V17,Cidade Tiradentes,A calçada da escola está toda destruída e as crianças andam pela rua,calcada_acessibilidade,alta,calcada_acessibilidade,0.59311462651868,alta,alta,False
+V18,Sé,Calçada da rua de cima com várias placas de concreto quebradas,calcada_acessibilidade,media,calcada_acessibilidade,0.5336532134509144,media,media,True
+V19,Santo Amaro,"Rampa de acesso da esquina construída errada, cadeira de rodas não sobe",calcada_acessibilidade,alta,calcada_acessibilidade,0.8873725679158088,alta,alta,False
+V20,Campo Limpo,"Calçada estreita demais por causa de um poste no meio, mal passa uma pessoa",calcada_acessibilidade,media,calcada_acessibilidade,0.4711915176153442,media,media,True
+V21,Ipiranga,Pequena rachadura na calçada da praça,calcada_acessibilidade,baixa,calcada_acessibilidade,0.408622945395979,baixa,baixa,True
+V22,Freguesia do Ó,A calçada da padaria tem um desnível que já fez minha mãe idosa cair,calcada_acessibilidade,alta,calcada_acessibilidade,0.6612446117096324,alta,alta,False
+V23,Vila Prudente,Comerciante colocou mesas e cadeiras ocupando toda a calçada,calcada_acessibilidade,media,calcada_acessibilidade,0.9729558745078107,media,media,False
+V24,Perus,"Calçada coberta de mato, ninguém consegue usar",calcada_acessibilidade,media,calcada_acessibilidade,0.6863460140065424,media,media,False
+V25,São Miguel Paulista,O bueiro da rua está entupido e com chuva forte a água entra nas casas,alagamento_drenagem,alta,alagamento_drenagem,0.9962670626010043,alta,alta,False
+V26,Bela Vista,"Tampa de bueiro solta, quando passa carro ela pula",alagamento_drenagem,alta,alagamento_drenagem,0.7030295928270558,media,media,False
+V27,Parelheiros,"Bueiro aberto no meio da rua sem nenhuma sinalização, à noite não dá pra ver",alagamento_drenagem,critica,buraco_pavimentacao,0.4772856221820723,critica,critica,True
+V28,Tucuruvi,A sarjeta da minha rua acumula água depois da chuva,alagamento_drenagem,media,alagamento_drenagem,0.9707956167710157,media,media,False
+V29,Capão Redondo,O córrego está subindo muito rápido e tem gente tentando atravessar a ponte,alagamento_drenagem,critica,calcada_acessibilidade,0.3086332966455728,media,media,True
+V30,Vila Maria,"Boca de lobo um pouco suja, mas ainda está escoando",alagamento_drenagem,baixa,alagamento_drenagem,0.9598386891807785,baixa,baixa,False
+V31,Consolação,"Esgoto voltando pelo bueiro da rua, cheiro horrível",alagamento_drenagem,alta,alagamento_drenagem,0.8050302245800793,alta,alta,False
+V32,Pirituba,A rua alaga toda vez que chove forte e os carros ficam presos,alagamento_drenagem,alta,alagamento_drenagem,0.8617423128206849,media,media,False
+V33,República,Montanha de entulho e restos de construção no meio da calçada,lixo_entulho,media,lixo_entulho,0.5240986169107046,media,media,True
+V34,Brás,"Lixo de comércio acumulado na esquina, já tem rato saindo",lixo_entulho,alta,lixo_entulho,0.9812625389444616,alta,alta,False
+V35,Jardim Ângela,Coleta não passa há uma semana na nossa rua,lixo_entulho,media,lixo_entulho,0.46574717056342324,media,media,True
+V36,Vila Mariana,Alguém deixou um saco de lixo ao lado da lixeira cheia,lixo_entulho,baixa,lixo_entulho,0.9572932323582207,media,media,False
+V37,Itaquera,"Descartaram pneus no terreno e acumula água, tem muito mosquito",lixo_entulho,alta,lixo_entulho,0.8977980383225905,alta,alta,False
+V38,Penha,Móveis velhos largados na calçada há dias,lixo_entulho,media,lixo_entulho,0.9677277310164655,media,media,False
+V39,Grajaú,Queimam lixo no terreno do lado da creche toda noite,lixo_entulho,alta,lixo_entulho,0.9471547768216819,alta,alta,False
+V40,Pinheiros,Papel e folhas espalhados na praça depois da feira,lixo_entulho,baixa,lixo_entulho,0.7404554196331878,media,media,False
+V41,Butantã,"Árvore grande caiu na rua e derrubou o fio, a rua está interditada",arvore_poda,critica,arvore_poda,0.9791933525202874,critica,critica,False
+V42,Mooca,Peço a poda dos galhos que estão batendo na janela do meu quarto,arvore_poda,baixa,arvore_poda,0.9515474625524699,media,media,False
+V43,Sapopemba,Galho enorme rachou e está quase caindo em cima do ponto de ônibus,arvore_poda,critica,arvore_poda,0.8180469655252238,alta,alta,False
+V44,Lapa,Árvore na calçada com o tronco podre e cheia de cupim,arvore_poda,media,arvore_poda,0.9220697754532943,media,media,False
+V45,Santana,Os galhos da árvore estão encostando nos fios de energia,arvore_poda,alta,arvore_poda,0.9969992551138974,media,media,False
+V46,Campo Limpo,Árvore bloqueando a visão da placa de pare do cruzamento,arvore_poda,alta,sinalizacao_transito,0.7167674620114097,alta,alta,False
+V47,Consolação,Folhas da árvore entupindo a calha da minha casa,arvore_poda,baixa,arvore_poda,0.9816119237288907,media,media,False
+V48,Jabaquara,Árvore muito alta e sem poda há anos na rua residencial,arvore_poda,media,arvore_poda,0.9391009080932875,media,media,False
+V49,Liberdade,"Semáforo apagado no cruzamento da avenida, os carros estão se cruzando sem controle",sinalizacao_transito,critica,sinalizacao_transito,0.6847207262680254,critica,critica,False
+V50,Santo Amaro,Placa de proibido estacionar caída no chão,sinalizacao_transito,media,sinalizacao_transito,0.8896987666174091,media,media,False
+V51,Tatuapé,Faixa de pedestre em frente ao hospital toda apagada,sinalizacao_transito,alta,sinalizacao_transito,0.966238341452536,alta,alta,False
+V52,Brasilândia,"Precisamos de uma faixa elevada na frente da escola, os carros passam muito rápido",sinalizacao_transito,alta,sinalizacao_transito,0.46567528698590305,alta,alta,True
+V53,Ipiranga,O tempo do semáforo de pedestre é muito curto pra quem é idoso atravessar,sinalizacao_transito,alta,sinalizacao_transito,0.9744567877639462,alta,alta,False
+V54,Freguesia do Ó,Placa indicando o nome da rua está desbotada,sinalizacao_transito,baixa,sinalizacao_transito,0.7911820619393589,baixa,baixa,False
+V55,Vila Prudente,Semáforo da rua lateral está com a luz vermelha queimada,sinalizacao_transito,alta,sinalizacao_transito,0.5907235372103775,media,media,False
+V56,Perus,Tachões da avenida arrancados e a pintura da faixa sumiu,sinalizacao_transito,media,sinalizacao_transito,0.8802988386041426,alta,alta,False
+V57,Bela Vista,Quero agendar a castração do meu gato pela prefeitura,outros,baixa,outros,0.7292435292720509,media,media,True
+V58,Capão Redondo,A escola municipal está sem merenda há uma semana,outros,media,alagamento_drenagem,0.28368056886830745,alta,alta,True
+V59,Sé,Quero denunciar um morador de rua que está dormindo na porta da loja,outros,media,outros,0.23453883314993748,media,media,True
+V60,Pirituba,Fogos de artifício todo fim de semana assustam os animais,outros,baixa,lixo_entulho,0.2325006847958716,media,media,True
+V61,Guaianases,A academia ao ar livre da praça está com aparelhos enferrujados,outros,media,lixo_entulho,0.5802513249662855,media,media,False
+V62,Tucuruvi,Qual o telefone da subprefeitura?,outros,baixa,outros,0.29137123673539583,media,media,True
+V63,Itaquera,Estacionaram um caminhão abandonado há meses na rua,outros,media,outros,0.8010394993334384,media,media,True
+V64,Lapa,Gostaria de sugerir mais linhas de ônibus para o bairro,outros,baixa,outros,0.7077593246904167,media,media,True

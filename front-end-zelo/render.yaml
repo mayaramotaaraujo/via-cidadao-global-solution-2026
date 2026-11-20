@@ -1,0 +1,34 @@
+# Blueprint do Render (Opção A — deploy em plataforma).
+# Render > New > Blueprint > selecione este repositório.
+# Valores com sync:false são pedidos no painel do Render (nunca no Git).
+services:
+  - type: web
+    name: zelo-api
+    runtime: docker
+    rootDir: backend
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GESTOR_TOKEN
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false        # ex.: https://zelo-web.onrender.com
+      - key: OPENAI_MODEL
+        value: gpt-5.4-mini
+      - key: AMBIENTE
+        value: producao          # com isso a API recusa subir se GESTOR_TOKEN for fraco
+      - key: PROXIES_CONFIAVEIS
+        value: "1"               # 1 proxy (Render) na frente: IP do cidadão = 1ª entrada a partir da direita
+      - key: REDES_PROXY
+        value: ""                # opcional: CIDR do proxy. No Render o container só é alcançável pelo proxy.
+
+  - type: web
+    name: zelo-web
+    runtime: docker
+    rootDir: frontend
+    plan: free
+    envVars:
+      - key: API_URL
+        sync: false        # ex.: https://zelo-api.onrender.com

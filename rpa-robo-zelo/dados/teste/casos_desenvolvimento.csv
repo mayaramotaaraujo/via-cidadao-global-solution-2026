@@ -1,0 +1,73 @@
+id,bairro,descricao,categoria,urgencia
+T01,Itaquera,"Cabo de energia arrebentou com o vento e está caído no chão da calçada, as crianças passam por ali pra ir pra escola",iluminacao_publica,critica
+T02,Butantã,"A lâmpada da rua de casa queimou faz uns dez dias, fica bem escuro quando volto do trabalho a pé",iluminacao_publica,alta
+T03,Lapa,"Luz do poste ligada o dia inteiro, desperdício de energia",iluminacao_publica,baixa
+T04,Penha,"Os postes da viela não acendem e já teve assalto ali essa semana",iluminacao_publica,alta
+T05,Santana,"Poste da praça com a luminária pendurada só pelo fio, balançando",iluminacao_publica,critica
+T06,Mooca,"Uma das lâmpadas do poste da minha rua está fraquinha, não é urgente",iluminacao_publica,baixa
+T07,Guaianases,"rua sem luz nenhuma desde sexta, ta um breu",iluminacao_publica,alta
+T08,Perus,"O poste em frente ao 300 pisca a noite inteira e incomoda",iluminacao_publica,media
+T09,Liberdade,"Iluminação do túnel de pedestres apagada, à noite ninguém tem coragem de passar",iluminacao_publica,alta
+T10,Capão Redondo,"Abriu um buracão na rua depois da chuva, já tem carro que quebrou a suspensão",buraco_pavimentacao,media
+T11,Sé,"Tem um buraco no asfalto perto do ponto, o idoso que desceu do ônibus tropeçou e se machucou",buraco_pavimentacao,alta
+T12,Pirituba,"O asfalto cedeu e abriu uma cratera onde cabe um carro",buraco_pavimentacao,critica
+T13,Vila Prudente,"Pequeno buraco na rua lateral, não atrapalha muito mas vai crescer",buraco_pavimentacao,baixa
+T14,Tucuruvi,"Fizeram obra da Sabesp e deixaram a vala aberta no asfalto",buraco_pavimentacao,media
+T15,Ipiranga,"rua toda esburacada, parece queijo suíço, moto cai direto",buraco_pavimentacao,alta
+T16,São Miguel Paulista,"Afundamento no asfalto bem na faixa de ônibus",buraco_pavimentacao,media
+T17,Jabaquara,"Os paralelepípedos da ladeira soltaram e os carros derrapam",buraco_pavimentacao,media
+T18,Grajaú,"buraco na rua da escola, as mães com carrinho desviam pelo meio dos carros",buraco_pavimentacao,alta
+T19,Bela Vista,"Calçada sem rampa na frente do hospital, cadeirante não consegue passar",calcada_acessibilidade,alta
+T20,Consolação,"O piso tátil da calçada da avenida foi arrancado numa obra",calcada_acessibilidade,alta
+T21,Vila Mariana,"Calçada com as pedras portuguesas soltas, minha avó tropeçou",calcada_acessibilidade,alta
+T22,Pinheiros,"A raiz da árvore levantou a calçada inteira em frente ao prédio",calcada_acessibilidade,media
+T23,Brás,"Ambulantes ocupam a calçada inteira e não dá pra passar a pé",calcada_acessibilidade,media
+T24,Freguesia do Ó,"Degrau enorme no meio do passeio, quem usa muleta não consegue subir",calcada_acessibilidade,alta
+T25,Tatuapé,"Calçada um pouco irregular na rua lateral do parque",calcada_acessibilidade,baixa
+T26,Santo Amaro,"o passeio público ta todo quebrado e cheio de lajota solta",calcada_acessibilidade,media
+T27,Cidade Tiradentes,"Não existe calçada na subida do morro, a gente anda no meio da rua com os carros",calcada_acessibilidade,alta
+T28,Sapopemba,"O córrego encheu e a água já entrou nas casas, tem família ilhada no segundo andar",alagamento_drenagem,critica
+T29,Jardim Ângela,"Bueiro sem tampa no meio da calçada, alguém pode cair dentro",alagamento_drenagem,critica
+T30,Vila Maria,"A boca de lobo da esquina vive entupida de folhas e a rua enche quando chove",alagamento_drenagem,media
+T31,Campo Limpo,"Toda chuva a enxurrada desce a rua e invade o quintal",alagamento_drenagem,alta
+T32,Parelheiros,"Água parada na sarjeta há dias, cheia de mosquito, medo de dengue",alagamento_drenagem,alta
+T33,Brasilândia,"galeria entupida voltando água suja pra rua",alagamento_drenagem,alta
+T34,Mooca,"A grelha do bueiro está meio torta, mas está escoando",alagamento_drenagem,baixa
+T35,República,"Vazamento de água limpa na rua faz dois dias, desperdiçando",alagamento_drenagem,media
+T36,Itaquera,"Piscinão cheio de mato e lixo, o bairro alagou semana passada",alagamento_drenagem,alta
+T37,Lapa,"Descarte de entulho de reforma na calçada da rua de trás",lixo_entulho,media
+T38,Penha,"Lixo acumulado no ponto viciado, cheio de rato e barata",lixo_entulho,alta
+T39,Sé,"Caminhão de lixo não passou na terça nem na quinta",lixo_entulho,media
+T40,Butantã,"Largaram uma geladeira velha e um colchão no canteiro",lixo_entulho,media
+T41,Capão Redondo,"jogam lixo no córrego toda semana, entope tudo",lixo_entulho,media
+T42,Santana,"A lixeira da praça está cheia, quando der passem lá",lixo_entulho,baixa
+T43,Guaianases,"Terreno baldio virou depósito de lixo, criança brinca lá no meio",lixo_entulho,alta
+T44,Pinheiros,"Caçamba de entulho estacionada há duas semanas ocupando a vaga",lixo_entulho,baixa
+T45,Ipiranga,"Restos de poda e sacos de lixo espalhados pela calçada inteira",lixo_entulho,media
+T46,Campo Limpo,"A árvore tombou com a chuva e está apoiada na fiação, a qualquer momento cai",arvore_poda,critica
+T47,Vila Mariana,"Galhos da árvore cobrindo totalmente o semáforo, motoristas não enxergam",arvore_poda,alta
+T48,Tucuruvi,"Gostaria de solicitar poda da árvore da frente de casa, está muito alta",arvore_poda,baixa
+T49,Jabaquara,"Árvore seca e morta no meio da praça, os galhos caem quando venta",arvore_poda,alta
+T50,Perus,"Um galho quebrado ficou pendurado em cima da calçada",arvore_poda,alta
+T51,Santo Amaro,"As raízes da árvore estão rachando o muro da escola",arvore_poda,media
+T52,Grajaú,"arvore caiu em cima de um carro estacionado e bloqueou a rua",arvore_poda,critica
+T53,Tatuapé,"A copa da árvore está tampando a luz do poste e a rua fica escura",arvore_poda,media
+T54,Pirituba,"Tem cupim na árvore da calçada, ela está oca por dentro",arvore_poda,media
+T55,Mooca,"Farol do cruzamento da avenida está desligado e os carros passam sem parar, em frente à escola",sinalizacao_transito,critica
+T56,Bela Vista,"A faixa de pedestre da frente do colégio sumiu de tão apagada",sinalizacao_transito,alta
+T57,Vila Prudente,"Roubaram a placa de pare da esquina, já teve batida",sinalizacao_transito,alta
+T58,Freguesia do Ó,"O semáforo de pedestre demora demais pra abrir",sinalizacao_transito,media
+T59,Liberdade,"A placa com o nome da rua está torta",sinalizacao_transito,baixa
+T60,Itaquera,"Lombada nova sem pintura nenhuma, ninguém vê à noite",sinalizacao_transito,alta
+T61,São Miguel Paulista,"Farol piscando amarelo desde ontem no cruzamento movimentado",sinalizacao_transito,alta
+T62,Consolação,"Pintura da ciclofaixa está desbotada",sinalizacao_transito,baixa
+T63,Sapopemba,"Precisa de placa de velocidade na descida, os carros descem voando",sinalizacao_transito,media
+T64,Butantã,"Meu vizinho escuta música alta todo sábado até as três da manhã",outros,media
+T65,Lapa,"Como faço para emitir a segunda via do IPTU?",outros,baixa
+T66,Penha,"O ônibus da linha 2732 está demorando mais de uma hora",outros,media
+T67,Sé,"Quero elogiar a equipe que consertou a rua semana passada",outros,baixa
+T68,Pinheiros,"Tem um cachorro abandonado e machucado na praça",outros,alta
+T69,Vila Maria,"Quero saber os documentos pra fazer o cartão do SUS",outros,baixa
+T70,Grajaú,"O posto de saúde está sem médico pediatra há meses",outros,media
+T71,Santana,"Estão construindo um puxadinho irregular no terreno ao lado",outros,media
+T72,Jardim Ângela,"A internet e o sinal de celular caem toda hora no bairro",outros,baixa

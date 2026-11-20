@@ -1,0 +1,18 @@
+# Segredos
+.env
+
+# Gerados pelo robô a cada execução
+saida/
+logs/
+dados/*.db
+modelos/*.joblib
+entrada/*
+!entrada/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store

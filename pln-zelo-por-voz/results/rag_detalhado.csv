@@ -1,0 +1,26 @@
+id,tipo,pergunta,doc_esperado,top1,posicao
+1,normal,Como eu peço para tapar um buraco na minha rua?,Tapa-buraco,Tapa-buraco > Quando pedir tapa-buraco,1
+2,continuacao,"E depois que eu pedir, o que acontece?",Tapa-buraco,Tapa-buraco > Quando pedir tapa-buraco,1
+3,normal,"O poste da minha rua está apagado à noite, o que eu faço?",Iluminação pública,Iluminação pública > Quando pedir manutenção da iluminação,1
+4,continuacao,E essa ligação é paga?,Iluminação pública,Iluminação pública > Quando pedir manutenção da iluminação,1
+5,normal,Quanto entulho eu posso levar no Ecoponto?,Entulho e Ecopontos,Entulho e Ecopontos > Quanto entulho posso levar ao Ecoponto,1
+6,continuacao,E onde eu encontro o mais perto de casa?,Entulho e Ecopontos,Entulho e Ecopontos > Quanto entulho posso levar ao Ecoponto,1
+7,normal,Posso agendar o Cata-Bagulho para buscar um sofá velho?,Operação Cata-Bagulho,Operação Cata-Bagulho > Posso agendar o Cata-Bagulho,1
+8,continuacao,E como eu sei o dia que ele passa na minha rua?,Operação Cata-Bagulho,Operação Cata-Bagulho > Posso agendar o Cata-Bagulho,1
+9,normal,Como eu recebo alerta de chuva da Defesa Civil no celular?,"Bueiros, alagamentos e alertas da Defesa Civil","Bueiros, alagamentos e alertas da Defesa Civil > Receber alertas de chuva da Defesa Civil por SMS",1
+10,continuacao,Dá pra cadastrar a casa da minha mãe também?,"Bueiros, alagamentos e alertas da Defesa Civil","Bueiros, alagamentos e alertas da Defesa Civil > Receber alertas de chuva da Defesa Civil por SMS",1
+11,normal,"Tem um carro largado na minha rua faz semanas, como eu denuncio?",Veículo abandonado na rua,Veículo abandonado na rua > Como denunciar veículo abandonado,1
+12,normal,Quem pode pedir poda de árvore na calçada?,"Poda, remoção e plantio de árvores","Poda, remoção e plantio de árvores > Quem pode pedir poda ou remoção de árvore",1
+13,normal,"A árvore está encostada no fio e soltando faísca, o que eu faço?","Poda, remoção e plantio de árvores",Iluminação pública > Fio partido soltando faíscas,2
+14,normal,"O bueiro da minha rua está entupido, quem limpa?","Bueiros, alagamentos e alertas da Defesa Civil","Bueiros, alagamentos e alertas da Defesa Civil > Bueiro ou boca de lobo entupido",1
+15,normal,"A rua está alagada, posso atravessar de carro?","Bueiros, alagamentos e alertas da Defesa Civil","Bueiros, alagamentos e alertas da Defesa Civil > O que fazer em alagamento",1
+16,normal,Quem conserta um buraco que a Sabesp abriu?,Tapa-buraco,Tapa-buraco > Buraco aberto por concessionária,1
+17,normal,"Minha casa está sem luz, a Prefeitura resolve?",Iluminação pública,Iluminação pública > O que a Prefeitura cuida e o que não cuida,1
+18,normal,"Na minha rua nunca teve poste, como eu peço um novo?",Iluminação pública,Iluminação pública > Rua sem nenhum poste (novo ponto de luz),1
+19,sem_resposta,Qual é o telefone da Subprefeitura da Mooca?,Canais de atendimento SP156,Canais de atendimento SP156 > Como falar com o SP156,1
+20,sem_resposta,Quantos dias exatamente demora o tapa-buraco na Vila Mariana?,Canais de atendimento SP156,Tapa-buraco > Quando pedir tapa-buraco,2
+21,normal,Posso jogar o entulho da reforma no lixo comum?,Entulho e Ecopontos,Entulho e Ecopontos > Entulho no lixo comum,1
+22,normal,Quanto tempo o dono tem para tirar o carro abandonado depois da notificação?,Veículo abandonado na rua,Veículo abandonado na rua > O que acontece depois da denúncia,1
+23,normal,Como eu falo com o 156 pelo WhatsApp?,Canais de atendimento SP156,Canais de atendimento SP156 > Como falar com o SP156,1
+24,normal,"Estou fora da cidade de São Paulo, como eu ligo para o 156?",Canais de atendimento SP156,Canais de atendimento SP156 > Como falar com o SP156,1
+25,normal,"Apareceu rachadura na parede e a terra está cedendo, o que eu faço?","Bueiros, alagamentos e alertas da Defesa Civil","Bueiros, alagamentos e alertas da Defesa Civil > Risco de deslizamento ou rachaduras na casa",1

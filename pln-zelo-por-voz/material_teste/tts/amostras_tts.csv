@@ -1,0 +1,11 @@
+amostra,arquivo,texto_original,texto_adaptado,latencia_tts_s
+1,tts_01.mp3,"Você pode pedir o tapa-buraco pelo **app SP156**, em Rua e bairro, ou ligar no 156.","Você pode pedir o tapa-buraco pelo app esse pê cento e cinquenta e seis, em Rua e bairro, ou ligar no cento e cinquenta e seis.",2.413
+2,tts_02.mp3,Ligue para o Ligue Iluminação Pública no 0800 779 0156. A ligação é grátis e funciona 24h.,"Ligue para o Ligue Iluminação Pública no zero oitocentos, sete sete nove, zero um cinco seis. A ligação é grátis e funciona vinte e quatro horas.",1.227
+3,tts_03.mp3,"No Ecoponto você pode levar até 1 m³ de entulho por dia, cerca de 20 sacos. É de graça! 😊","No Ecoponto você pode levar até um metro cúbico de entulho por dia, cerca de vinte sacos. É de graça!",1.154
+4,tts_04.mp3,Envie um SMS com o CEP da sua casa para o número 40199 e receba os alertas da Defesa Civil.,Envie um esse eme esse com o cep da sua casa para o número quatro zero um nove nove e receba os alertas da Defesa Civil.,1.08
+5,tts_05.mp3,"O dono tem 5 dias úteis para tirar o carro. Depois de 90 dias no pátio, ele pode ir a leilão.","O dono tem cinco dias úteis para tirar o carro. Depois de noventa dias no pátio, ele pode ir a leilão.",1.31
+6,tts_06.mp3,"Não atravesse a rua alagada. Procure um lugar alto. Em emergência, ligue 199 ou 193.","Não atravesse a rua alagada. Procure um lugar alto. Em emergência, ligue cento e noventa e nove ou cento e noventa e três.",1.222
+7,tts_07.mp3,"Fale com o Chat SP156 pelo WhatsApp, no número (11) 3230-5156.","Fale com o Chat esse pê cento e cinquenta e seis pelo WhatsApp, no número onze, três dois três zero, cinco um cinco seis.",2.387
+8,tts_08.mp3,O Cata-Bagulho não pode ser agendado. Consulte a data pelo CEP em coleta.prefeitura.sp.gov.br.,O Cata-Bagulho não pode ser agendado. Consulte a data pelo cep no site da Prefeitura.,1.999
+9,tts_09.mp3,"Desculpe, eu só ajudo com serviços de zeladoria da cidade, como tapa-buraco e poda de árvore.","Desculpe, eu só ajudo com serviços de zeladoria da cidade, como tapa-buraco e poda de árvore.",1.132
+10,tts_10.mp3,Fio soltando faísca é urgente: não se aproxime e ligue para a Enel no 0800 72 72 120.,"Fio soltando faísca é urgente, não se aproxime e ligue para a Enel no zero oitocentos, setenta e dois, setenta e dois, um dois zero.",2.681

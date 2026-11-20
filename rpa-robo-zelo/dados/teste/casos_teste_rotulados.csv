@@ -1,0 +1,65 @@
+id,bairro,descricao,categoria,urgencia
+V01,Sapopemba,"Desde o temporal de ontem a rua inteira está às escuras, nenhum poste acendeu",iluminacao_publica,alta
+V02,Lapa,"Um poste da avenida está com a lâmpada queimada",iluminacao_publica,media
+V03,Penha,"Tem um fio de alta tensão pendurado quase encostando no chão perto do ponto de ônibus",iluminacao_publica,critica
+V04,Pinheiros,"Os refletores da praça ficam ligados de dia e apagados de noite, tá invertido",iluminacao_publica,baixa
+V05,Guaianases,"A rua da escola está sem iluminação, as crianças saem do noturno no escuro",iluminacao_publica,alta
+V06,Vila Mariana,"O poste da esquina acende e apaga sozinho",iluminacao_publica,media
+V07,Jardim Ângela,"Caixa de luz do poste aberta com os fios aparecendo, molecada brinca do lado",iluminacao_publica,critica
+V08,Santana,"Gostaria de pedir a troca da lâmpada amarela do poste por LED, não é urgente",iluminacao_publica,baixa
+V09,Itaquera,"Buraco no meio da avenida, ontem um motoqueiro caiu e se machucou",buraco_pavimentacao,alta
+V10,Mooca,"Tem uns remendos no asfalto da minha rua que ficaram desnivelados",buraco_pavimentacao,baixa
+V11,Grajaú,"Asfalto rachado e com buracos em toda a extensão da rua, carro raspa embaixo",buraco_pavimentacao,media
+V12,Jabaquara,"O chão da rua afundou de repente e abriu um buraco muito fundo, dá pra ver o cano lá embaixo",buraco_pavimentacao,critica
+V13,Butantã,"Buraco na entrada da garagem do prédio, os carros batem o fundo",buraco_pavimentacao,media
+V14,Brasilândia,"A rua de terra virou lama e o ônibus não consegue subir",buraco_pavimentacao,media
+V15,Liberdade,"buraco perto da faixa de pedestre, um senhor de bengala quase caiu hoje",buraco_pavimentacao,alta
+V16,Tatuapé,"Buraquinho no asfalto na frente do número 50, só pra constar",buraco_pavimentacao,baixa
+V17,Cidade Tiradentes,"A calçada da escola está toda destruída e as crianças andam pela rua",calcada_acessibilidade,alta
+V18,Sé,"Calçada da rua de cima com várias placas de concreto quebradas",calcada_acessibilidade,media
+V19,Santo Amaro,"Rampa de acesso da esquina construída errada, cadeira de rodas não sobe",calcada_acessibilidade,alta
+V20,Campo Limpo,"Calçada estreita demais por causa de um poste no meio, mal passa uma pessoa",calcada_acessibilidade,media
+V21,Ipiranga,"Pequena rachadura na calçada da praça",calcada_acessibilidade,baixa
+V22,Freguesia do Ó,"A calçada da padaria tem um desnível que já fez minha mãe idosa cair",calcada_acessibilidade,alta
+V23,Vila Prudente,"Comerciante colocou mesas e cadeiras ocupando toda a calçada",calcada_acessibilidade,media
+V24,Perus,"Calçada coberta de mato, ninguém consegue usar",calcada_acessibilidade,media
+V25,São Miguel Paulista,"O bueiro da rua está entupido e com chuva forte a água entra nas casas",alagamento_drenagem,alta
+V26,Bela Vista,"Tampa de bueiro solta, quando passa carro ela pula",alagamento_drenagem,alta
+V27,Parelheiros,"Bueiro aberto no meio da rua sem nenhuma sinalização, à noite não dá pra ver",alagamento_drenagem,critica
+V28,Tucuruvi,"A sarjeta da minha rua acumula água depois da chuva",alagamento_drenagem,media
+V29,Capão Redondo,"O córrego está subindo muito rápido e tem gente tentando atravessar a ponte",alagamento_drenagem,critica
+V30,Vila Maria,"Boca de lobo um pouco suja, mas ainda está escoando",alagamento_drenagem,baixa
+V31,Consolação,"Esgoto voltando pelo bueiro da rua, cheiro horrível",alagamento_drenagem,alta
+V32,Pirituba,"A rua alaga toda vez que chove forte e os carros ficam presos",alagamento_drenagem,alta
+V33,República,"Montanha de entulho e restos de construção no meio da calçada",lixo_entulho,media
+V34,Brás,"Lixo de comércio acumulado na esquina, já tem rato saindo",lixo_entulho,alta
+V35,Jardim Ângela,"Coleta não passa há uma semana na nossa rua",lixo_entulho,media
+V36,Vila Mariana,"Alguém deixou um saco de lixo ao lado da lixeira cheia",lixo_entulho,baixa
+V37,Itaquera,"Descartaram pneus no terreno e acumula água, tem muito mosquito",lixo_entulho,alta
+V38,Penha,"Móveis velhos largados na calçada há dias",lixo_entulho,media
+V39,Grajaú,"Queimam lixo no terreno do lado da creche toda noite",lixo_entulho,alta
+V40,Pinheiros,"Papel e folhas espalhados na praça depois da feira",lixo_entulho,baixa
+V41,Butantã,"Árvore grande caiu na rua e derrubou o fio, a rua está interditada",arvore_poda,critica
+V42,Mooca,"Peço a poda dos galhos que estão batendo na janela do meu quarto",arvore_poda,baixa
+V43,Sapopemba,"Galho enorme rachou e está quase caindo em cima do ponto de ônibus",arvore_poda,critica
+V44,Lapa,"Árvore na calçada com o tronco podre e cheia de cupim",arvore_poda,media
+V45,Santana,"Os galhos da árvore estão encostando nos fios de energia",arvore_poda,alta
+V46,Campo Limpo,"Árvore bloqueando a visão da placa de pare do cruzamento",arvore_poda,alta
+V47,Consolação,"Folhas da árvore entupindo a calha da minha casa",arvore_poda,baixa
+V48,Jabaquara,"Árvore muito alta e sem poda há anos na rua residencial",arvore_poda,media
+V49,Liberdade,"Semáforo apagado no cruzamento da avenida, os carros estão se cruzando sem controle",sinalizacao_transito,critica
+V50,Santo Amaro,"Placa de proibido estacionar caída no chão",sinalizacao_transito,media
+V51,Tatuapé,"Faixa de pedestre em frente ao hospital toda apagada",sinalizacao_transito,alta
+V52,Brasilândia,"Precisamos de uma faixa elevada na frente da escola, os carros passam muito rápido",sinalizacao_transito,alta
+V53,Ipiranga,"O tempo do semáforo de pedestre é muito curto pra quem é idoso atravessar",sinalizacao_transito,alta
+V54,Freguesia do Ó,"Placa indicando o nome da rua está desbotada",sinalizacao_transito,baixa
+V55,Vila Prudente,"Semáforo da rua lateral está com a luz vermelha queimada",sinalizacao_transito,alta
+V56,Perus,"Tachões da avenida arrancados e a pintura da faixa sumiu",sinalizacao_transito,media
+V57,Bela Vista,"Quero agendar a castração do meu gato pela prefeitura",outros,baixa
+V58,Capão Redondo,"A escola municipal está sem merenda há uma semana",outros,media
+V59,Sé,"Quero denunciar um morador de rua que está dormindo na porta da loja",outros,media
+V60,Pirituba,"Fogos de artifício todo fim de semana assustam os animais",outros,baixa
+V61,Guaianases,"A academia ao ar livre da praça está com aparelhos enferrujados",outros,media
+V62,Tucuruvi,"Qual o telefone da subprefeitura?",outros,baixa
+V63,Itaquera,"Estacionaram um caminhão abandonado há meses na rua",outros,media
+V64,Lapa,"Gostaria de sugerir mais linhas de ônibus para o bairro",outros,baixa

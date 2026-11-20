@@ -1,0 +1,11 @@
+# Versões testadas (Python 3.10 a 3.13)
+gradio==6.32.0
+faster-whisper==1.2.1
+openai==3.54.0
+edge-tts==7.3.1
+scikit-learn==1.9.1
+num2words==0.5.14
+jiwer==4.0.0
+python-dotenv==1.2.3
+requests>=2.31
+pytest>=8.0

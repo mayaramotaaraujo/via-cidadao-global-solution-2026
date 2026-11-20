@@ -1,0 +1,35 @@
+[theme]
+base = "light"
+primaryColor = "#0F4C97"          # azul das placas de rua de São Paulo
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6F8"
+textColor = "#1A2533"
+linkColor = "#0F4C97"
+borderColor = "#DCE1E7"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+font = "'Public Sans':https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
+headingFont = "'Public Sans':https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap"
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+headingFontSizes = ["2rem", "1.5rem", "1.25rem", "1.0625rem", "1rem", "0.9375rem"]
+baseFontSize = 16
+metricValueFontSize = "1.875rem"
+metricValueFontWeight = 650
+dataframeHeaderBackgroundColor = "#F4F6F8"
+redColor = "#B3261E"
+orangeColor = "#B54708"
+yellowColor = "#8A5A00"
+greenColor = "#1E7B34"
+blueColor = "#0F4C97"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
